@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+ c++ -Wall $(root-config --cflags) -o main *cc $(root-config --libs)

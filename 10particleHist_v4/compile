@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+ c++ -Wall $(root-config --cflags) -o main main.cc AnalysisFactory.cc AnalysisInfo.cc AnalysisSteering.cc Constants.cc Event.cc EventDump.cc EventReadFromFile.cc EventSim.cc EventSource.cc LifetimeFit.cc MassMean.cc ParticleLifetime.cc ParticleMass.cc ParticleReco.cc ProperTime.cc SourceFactory.cc Utilities.cc $(root-config --libs)
